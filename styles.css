@@ -1,11 +1,46 @@
-h1 {
+.hero-text {
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:whitesmoke;
+  }
+body {
+    background-color: White;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: rgb(128, 151, 177);  
+
+}
+      
+#navbar a {
+    float: left;
+    display: block;
+    color: rgb(253, 255, 255)  ;
+    text-align: center;
+    padding: 14px 14px;
+    font-size: 17px;
+}
+      
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+      
+#navbar a.active {
+    background-color: #B2BABB  ;
     color: white;
 }
-body {
-    background-image: url('https://www.pexels.com/photo/boy-sitting-on-soccer-ball-holding-dslr-camera-2338045/');
-    background-color: black;
-}
+      
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
 /* #main {
     border:1px black;
