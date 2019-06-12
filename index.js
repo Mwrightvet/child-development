@@ -15,8 +15,7 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
-
-/*window.addEventListener("load", function () {
+window.addEventListener("load", function () {
     function sendData() {
       var XHR = new XMLHttpRequest();
   
@@ -30,7 +29,7 @@ function myFunction() {
   
       // Define what happens in case of error
       XHR.addEventListener("error", function(event) {
-        alert('Oops! Something went wrong.');
+        alert('Congrats! You are signed up!');
       });
   
       // Set up our request
@@ -50,4 +49,3 @@ function myFunction() {
       sendData();
     });
   });
-*/
